@@ -1,0 +1,39 @@
+package codeup;
+
+import java.util.Scanner;
+
+public class codeup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		코드업 1295문제 풀이
+//		1번째 풀이
+		
+//		Scanner scn = new Scanner(System.in);
+////		입력받기
+//		String strInput = scn.next();
+////		결과 출력 변수
+//		String strResult = "";
+//		
+//		for(int i = 0; i < strInput.length(); i++) {
+//			String cletter = strInput.charAt(i) + "";
+//			
+//			if(cletter.equals(cletter.toLowerCase()) == true) {
+//				strResult += cletter.toUpperCase();
+//			} else if(cletter.equals(cletter.toUpperCase()) == true) {
+//				strResult += cletter.toLowerCase();
+//			} else {
+//				strResult += cletter;
+//			}
+//		}
+//		System.out.println(strResult);
+		
+//		2번째 풀이
+		Scanner scn = new Scanner(System.in);
+//	    입력받기
+		String strInput = scn.next();
+//	    결과 출력 변수
+		String strResult = "";
+	}
+
+}

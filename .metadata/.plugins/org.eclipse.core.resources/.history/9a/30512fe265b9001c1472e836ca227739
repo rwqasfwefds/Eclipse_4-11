@@ -1,0 +1,21 @@
+package codeup;
+
+import java.util.Scanner;
+
+public class codeup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		String ch = scanner.nextLine();
+		
+		if(ch.equals(ch.toLowerCase())){
+			System.out.print(ch.toUpperCase());
+		} else if(ch.equals(ch.toUpperCase())) {
+			System.out.print(ch.toLowerCase());
+		}
+		
+	}
+
+}

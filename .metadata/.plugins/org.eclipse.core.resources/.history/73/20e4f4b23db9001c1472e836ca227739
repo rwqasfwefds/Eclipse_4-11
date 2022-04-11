@@ -1,0 +1,22 @@
+package stringexe;
+
+public class String_exe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		자바 String 유용한 메소드 정리
+
+//		substring : 문자열 자르기
+//		substring(int start) : start부터 끝까지 문자열을 자름
+//		substring(int start, int end) : start부터 end 앞까지 문자열을 자름
+//		return값 : 잘린 문자열
+		String tmp_str = "abcdefgh";
+		String sub1 = tmp_str.substring(5);
+		String sub2 = tmp_str.substring(1, 4);
+		
+		System.out.println("sub1 = " + sub1);
+		System.out.println("sub2 = " + sub2);
+		
+	}
+
+}

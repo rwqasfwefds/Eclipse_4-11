@@ -1,0 +1,57 @@
+package stringexe;
+
+import java.util.Arrays;
+
+public class String_exe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		자바 String 유용한 메소드 정리
+
+//		1. substring : 문자열 자르기
+//		substring(int start) : start부터 끝까지 문자열을 자름
+//		substring(int start, int end) : start부터 end 앞까지 문자열을 자름
+//		return값 : 잘린 문자열
+//		
+//		String tmp_str = "abcdefgh";
+//		String sub1 = tmp_str.substring(5);
+//		String sub2 = tmp_str.substring(1, 4);
+//		
+//		System.out.println("sub1 = " + sub1);
+//		System.out.println("sub2 = " + sub2);
+
+//		2. length : 문자열의 길이 구하기
+//		사용법 : length()
+//		return값 : 정수, 문자열 길이
+		
+//		String string1 = "java";
+//		String string2 = "메소드 설명";
+//		
+//		System.out.println("string1.length() = " + string1.length());
+//		System.out.println("string2.length() = " + string2.length());
+		
+//		3. split : 문자열 나누기
+//		String[] split(String divider)
+//		함수의 설명 : 문자열을 자를 분리자로 나눠서 문자열 배열에 담아서 반환 함
+//		1st 매개변수 : 분리자
+//		return값 : 분리자로 잘린 문자열 배열
+		
+//		String str_num = "123 4567 890";
+//		String[] arr = str_num.split(" ");
+//		
+//		System.out.println(Arrays.toString(arr));
+//		System.out.println("arr[0] = " + arr[0]);
+//		System.out.println("arr[1] = " + arr[1]);
+//		System.out.println("arr[2] = " + arr[2]);
+		
+//		4. equals : 문자열 일치 여부 검사
+//		boolean equals(Object obj)
+//		1st 매개변수 : 문자열 객체가 들어옴
+//		return값 : 일치하면 참(true), 틀리면 거짓(false)
+		
+		String s = "Hello Java";
+		boolean c1 = s.equals("Hello Java");
+		boolean c2 = s.equals("Fucking Java");
+	}
+
+}
